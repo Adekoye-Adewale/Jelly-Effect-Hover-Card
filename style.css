@@ -24,7 +24,7 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  filter: drop-shadow(0 0 1rem crimson);
+  filter: drop-shadow(0 0 1rem #9961ac);
   overflow: hidden;
   cursor: pointer;
 }
@@ -33,7 +33,7 @@ body {
   position: absolute;
   height: 100%;
   width: calc(100% + 1px);
-  background-color: black;
+  background-color: #14011a;
   opacity: 0;
   transition: opacity 0.15s ease-in;
 }
@@ -52,7 +52,7 @@ body {
 
 svg#curve {
   position: absolute;
-  fill: #fff;
+  fill: #d692ec;
   left: 0;
   bottom: 0;
   width: 400px;
@@ -73,7 +73,7 @@ svg#curve {
   height: 30px;
   width: 30px;
   border-radius: 10%;
-  background-color: #fff;
+  background-color: #9961ac;
   display: inline-block;
   padding: 5px;
   transform: translateY(200px);
@@ -87,6 +87,7 @@ svg#curve {
 
 .info {
   font-family: Inconsolata;
+  color: #381942;
   padding-left: 20px;
   transform: translateY(250px);
   transition: transform 1s cubic-bezier(0.31, 1.21, 0.64, 1.02);
