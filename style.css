@@ -2,14 +2,12 @@
   margin: 0;
   padding: 0;
 }
-
 html,
 body {
   height: 100%;
   width: 100%;
   background: #111;
 }
-
 .card {
   background-image: url(img.jpg);
   position: absolute;
@@ -28,7 +26,6 @@ body {
   overflow: hidden;
   cursor: pointer;
 }
-
 .card-blur {
   position: absolute;
   height: 100%;
@@ -37,11 +34,9 @@ body {
   opacity: 0;
   transition: opacity 0.15s ease-in;
 }
-
 .card:hover .card-blur {
   opacity: 0.6;
 }
-
 .footer {
   z-index: 1;
   position: absolute;
@@ -49,7 +44,6 @@ body {
   width: 100%;
   bottom: 0;
 }
-
 svg#curve {
   position: absolute;
   fill: #d692ec;
@@ -58,7 +52,6 @@ svg#curve {
   width: 400px;
   height: 450px;
 }
-
 .connections {
   height: 80px;
   width: 400px;
@@ -68,7 +61,6 @@ svg#curve {
   bottom: 100px;
   margin: auto;
 }
-
 .connection {
   height: 30px;
   width: 30px;
@@ -80,11 +72,9 @@ svg#curve {
   margin-left: 15px;
   transition: transform 1s cubic-bezier(0.46, 1.48, 0.18, 0.81);
 }
-
 .card:hover .connection {
   transform: translateY(0px);
 }
-
 .info {
   font-family: Inconsolata;
   color: #381942;
@@ -92,28 +82,22 @@ svg#curve {
   transform: translateY(250px);
   transition: transform 1s cubic-bezier(0.31, 1.21, 0.64, 1.02);
 }
-
 .card:hover .info {
   transform: translateY(0px);
 }
-
 .name {
   font-weight: bolder;
   padding-top: 5px;
 }
-
 .job {
   margin-top: 10px;
 }
-
 .connection.instagram {
   transition-delay: 0.06s;
 }
-
 .connection.twitter {
   transition-delay: 0.12s;
 }
-
 i {
   font-size: 25px;
   position: relative;
